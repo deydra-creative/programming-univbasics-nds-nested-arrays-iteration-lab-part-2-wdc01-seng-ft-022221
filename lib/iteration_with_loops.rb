@@ -1,5 +1,5 @@
 def find_min_in_nested_arrays(src)
-mins = []
+min = []
 row = 0 
 while row < src.count do
   element = 0 
@@ -10,8 +10,8 @@ while row < src.count do
       end
       element += 1
     end 
-    mins << current_min
+    min << current_min
     row += 1 
 end 
-mins
+min
 end
